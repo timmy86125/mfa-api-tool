@@ -1,0 +1,10 @@
+#############################################
+# Configuration
+#############################################
+
+aws_profile = "your aws profile"
+aws_region  = "your aws default region"
+resource_tags = {
+  terraform = "true"
+  project   = "your project name"
+}
